@@ -1,0 +1,13 @@
+<div class="pdf-container">
+    <object [data]="getResumeURL()" type="application/pdf" width="100%" height="100%">
+        <div class="container p-0">
+            <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="profile">
+                <div class="w-100">
+                    <p class="lead">Oops! the web browser doesn't have a PDF support.</p>
+                    <p class="lead">Please <a [href]="getResumeURL()" target="_blank">click here to download the resume.</a>
+                    </p>
+                </div>
+            </section>
+        </div>
+    </object>
+</div>

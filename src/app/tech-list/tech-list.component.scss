@@ -1,0 +1,33 @@
+$tech-list: spring jquery selenium solr dojo mysql;
+
+.tech-icons {
+    font-size: 3rem;
+
+    .list-inline-item i:hover {
+        color: #BD5D38;
+    }
+
+    @mixin icon($name) {
+        width: 45px;
+        height: 45px;
+        margin-bottom: -6px;
+        background-size: cover;
+        /*
+        *  Added hover image here as well, so that it will be loaded on page load.
+        *  It will prevent image load on hover, resulting no lagging in hover case.
+        */
+        background-image: url('/assets/icon/'+ $name + '-hover.svg');
+        background-image: url('/assets/icon/'+ $name + '.svg');
+
+        &.clicked,
+        &:hover {
+            background-image: url('/assets/icon/'+ $name + '-hover.svg');
+        }
+    }
+
+    @each $current-tech in $tech-list {
+        .custom-#{$current-tech} {
+            @include icon($current-tech);
+        }
+    }
+}

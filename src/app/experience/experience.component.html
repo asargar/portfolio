@@ -1,0 +1,20 @@
+<div class="container p-0">
+  <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
+    <div class="w-100">
+      <h2 class="mb-5">Experience</h2>
+      <div *ngFor="let experience of data.list"
+        class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+        <div class="container">
+          <h3 class="mb-0">{{experience.title}}</h3>
+          <div class="d-flex flex-column bd-highlight mb-3">
+            <div class="bd-highlight subheading">{{experience.company}}</div>
+            <div class="bd-highlight text-primary">{{experience.start}} - {{experience.end}}</div>
+          </div>
+          <ul>
+            <li *ngFor="let detail of experience.details" [innerHTML]="detail"></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>

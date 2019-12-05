@@ -1,0 +1,23 @@
+<div>
+  <div class="container p-0">
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="profile">
+      <div class="w-100">
+        <h2 class="mb-0">{{data.firstName}}
+          <span class="text-primary">{{data.lastName}}</span>
+        </h2>
+        <div class="subheading mb-5">
+          <span *ngIf="data.phone"><a href="tel:{{data.phone}}"
+              class="glyphicon glyphicon-phone">{{data.phone}}</a></span>
+          <span *ngIf="data.email"><a class="fab fa-email" href="mailto:{{data.email}}">{{data.email}}</a> </span>
+        </div>
+        <p class="lead mb-5">{{data.aboutMe}}</p>
+        <div class="social-icons">
+          <a *ngFor="let socialProfile of data.socialProfiles" href="{{socialProfile.link}}" target="_blank"
+            [ngbTooltip]="socialProfile.name">
+            <i class="{{socialProfile.class | lowercase}}"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>

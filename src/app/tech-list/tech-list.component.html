@@ -1,0 +1,5 @@
+<ul *ngIf="techList" class="list-inline tech-icons">
+    <li *ngFor="let item of techList | techConfig" class="list-inline-item">
+        <i *ngIf="item.class" class="{{item.class | lowercase}}" [ngbTooltip]="item.title" triggers="manual" #t="ngbTooltip" autoClose="outside" (mouseenter)="showToolTip(t)" (click)="showToolTip(t)"></i>
+    </li>
+</ul>

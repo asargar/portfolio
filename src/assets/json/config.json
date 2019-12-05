@@ -1,0 +1,341 @@
+{
+  "resumeFile": "/assets/pdf/Amit_Sargar_Resume.pdf",
+  "navBarConfig": {
+    "text": "Amit Sargar",
+    "profilePic": "../assets/img/profile.png",
+    "navItems": [
+      "About",
+      "Experience",
+      "Education",
+      "Skills",
+      "Projects",
+      "Resume"
+    ]
+  },
+  "about": {
+    "firstName": "Amit",
+    "lastName": "Sargar",
+    "email": "amitsargar@gmail.com",
+    "aboutMe": "Hello, welcome to my professional profile. I have a Masters in Computer Applications from VJTI, Mumbai and currently working as a Consultant at Deloitte Consulting Pvt. Ltd with 4+ years of exeperiance as Full Stack Java Devloper.",
+    "socialProfiles": [
+      {
+        "name": "LinkedIn",
+        "link": "https://www.linkedin.com/in/amitsargar/",
+        "class": "fab fa-linkedin"
+      },
+      {
+        "name": "GitHub",
+        "link": "https://github.com/asargar/",
+        "class": "fab fa-github"
+      },
+      {
+        "name": "Twitter",
+        "link": "https://twitter.com/amitsargar/",
+        "class": "fab fa-twitter"
+      },
+      {
+        "name": "Instagram",
+        "link": "https://instagram.com/amit.sargar/",
+        "class": "fab fa-instagram"
+      }
+    ]
+  },
+  "experience": {
+    "list": [
+      {
+        "title": "Consultant",
+        "company": "Deloitte Consulting, Mumbai",
+        "start": "Aug, 2018",
+        "end": "Present",
+        "details": [
+          "Got promoted to Consultant on fast track, as recognition to work towards client and extracurricular activities like <strong>represented Deloitte in Code Gladiator Finals</strong>.",
+          "Got recognition and <strong>Applause Award</strong> for project contribution.",
+          "Leading the development of various modules of paperless insurance product owned by US based Business Insurance Company.",
+          "Full stack development to enhance existing system to introduce new features including upgrading payment gateway SDK and making system PCI compliant."
+        ]
+      },
+      {
+        "title": "Business Technical Analyst",
+        "company": "Deloitte Consulting, Mumbai",
+        "start": "Dec, 2016",
+        "end": "Aug, 2018",
+        "details": [
+          "Represented Deloitte in largest coding contest Code Gladiator Finals in 2017 and 2018. Got the highest recognition award in Deloitte for the same. The 2017 coding event recognised by Guinness record for largest coding contest.",
+          "Got recognition from Client as well as Deloitte for contribution towards client service.",
+          "Development of various modules of the platform/ product for US based public sector client.",
+          "Full stack development to enhance existing system to introduce new features."
+        ]
+      },
+      {
+        "title": "Associate Software Engineer",
+        "company": "Pragmatix Services Pvt. Ltd., Mumbai",
+        "start": "Jul, 2015",
+        "end": "Dec, 2016",
+        "details": [
+          "Development and integration of various modules like Non-Performing Assets (NPA), Early Warning System (EWS) solutions for Banking client.",
+          "Responsible to design, devlope and optimize Rule Engine product, which was integral part of NPA and EWS solutions.",
+          "Migrating various modules from previous version of the product to new maven based OSGi system.",
+          "Involved in the development of various POCs for client demos.",
+          "Technologies & Frameworks: Java, Spring MVC, Hibernate, JBPM, SQL, HTML, CSS, JavaScript, Dojo, OSGi, AngularJS"
+        ]
+      },
+      {
+        "title": "Trainee Software Engineer",
+        "company": "Pragmatix Services Pvt. Ltd., Mumbai",
+        "start": "Jan, 2015",
+        "end": "Jun, 2015",
+        "details": [
+          "Design and develop frontend and backend of Smart Search module.",
+          "Design and develop Download Automation solution which allows user to download thousands of files in a click.",
+          "Enhancement of the reporting framework module.",
+          "Development of autocomplete widget in Dojo.",
+          "Received appreciation for the Download Automation project.",
+          "Technologies & Frameworks: Java, Spring MVC, Hibernate, SQL, HTML, CSS, JavaScript, Dojo, jQuery, AngularJs"
+        ]
+      }
+    ]
+  },
+  "education": {
+    "list": [
+      {
+        "college": "VJTI, Mumbai",
+        "website": "https://en.wikipedia.org/wiki/Veermata_Jijabai_Technological_Institute",
+        "course": "Master of Computer Applications",
+        "start": "Jul, 2012",
+        "end": "Jun, 2015"
+      },
+      {
+        "college": "KWC, Sangli",
+        "website": "http://www.kwcsangli.in/",
+        "course": "Bachelor of Computer Science",
+        "start": "Jul, 2009",
+        "end": "Mar, 2012"
+      }
+    ]
+  },
+  "skills": {
+    "list": [
+      {
+        "title": "Programming Skills",
+        "techList": [
+          "java",
+          "php"
+        ]
+      },
+      {
+        "title": "Java Frameworks",
+        "techList": [
+          "spring",
+          "selenium"
+        ]
+      },
+      {
+        "title": "Web Technologies",
+        "techList": [
+          "angular",
+          "jquery",
+          "javascript",
+          "html5",
+          "css3",
+          "drupal",
+          "sass"
+        ]
+      },
+      {
+        "title": "Database",
+        "techList": [
+          "mysql"
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "list": [
+      {
+        "title": "Business Insurance Website",
+        "description": "US based Business Insurance website with multiple white label partners to purchase and maintain paperless online business insurance. It includes Web application for Agent and actual users to purchase new policy using online payment and maintaining the account to view existing policies.",
+        "techList": [
+          "java",
+          "spring",
+          "drupal",
+          "php",
+          "angular",
+          "jquery",
+          "html5",
+          "css3",
+          "node",
+          "npm",
+          "sass",
+          "git",
+          "grunt",
+          "mysql",
+          "jira"
+        ]
+      },
+      {
+        "title": "Department of Motor Vehicle",
+        "description": "US based public sector project for Registration and Titles System, which includes Web application for Agent and actual users, and batch system to process daily transactions.",
+        "techList": [
+          "java",
+          "spring",
+          "jquery",
+          "html5",
+          "css3",
+          "git",
+          "jira"
+        ]
+      },
+      {
+        "title": "Rule Engine",
+        "description": "Data filtering solution depending on rules for NPA (Non-Performing Assets) and EWS (Early Warning System) depending on various nested filtering criteria. It is an integral part of these solutions.",
+        "techList": [
+          "java",
+          "spring",
+          "angularjs",
+          "html5",
+          "css3"
+        ]
+      },
+      {
+        "title": "Non-Performing Assets (NPA)",
+        "description": "A predictive analysis tool which aids banks to identify the non-performing assets and helps in risk analysis.",
+        "techList": [
+          "java",
+          "spring",
+          "angularjs",
+          "html5",
+          "css3"
+        ]
+      },
+      {
+        "title": "Early Warning System (EWS)",
+        "description": "Project's main purpose was to alleviate the risks of non-performing loans. It enabled our banking clients to get effective early warnings to protect their assets and reduce the impact of payment delinquency. ",
+        "techList": [
+          "java",
+          "spring",
+          "angularjs",
+          "html5",
+          "css3"
+        ]
+      },
+      {
+        "title": "Bank Statement Analysis",
+        "description": "Tool to extract data into structured table which is required by the ETL job to generate score for loan system.",
+        "techList": [
+          "java",
+          "spring",
+          "jquery",
+          "html5",
+          "css3"
+        ]
+      },
+      {
+        "title": "Download Automation",
+        "description": "Tool to download thousands of files in a click. It helps user to download files from particular website, required by the ETL job.",
+        "techList": [
+          "java",
+          "spring",
+          "selenium",
+          "jquery",
+          "html5",
+          "css3"
+        ]
+      },
+      {
+        "title": "Smart Search",
+        "description": "Introduced Smart Search functionaly to allow user to tag various resources like reports and dashboards as per requirement for instant search across the whole platform.",
+        "techList": [
+          "java",
+          "spring",
+          "solr",
+          "dojo",
+          "html5",
+          "css3"
+        ]
+      }
+    ]
+  },
+  "technologyMap": {
+    "-description-": "Technology map to mention fontawesome classname or direct icon link for unsopported icons",
+    "java": {
+      "title": "Java",
+      "class": "fab fa-java"
+    },
+    "drupal": {
+      "title": "Drupal",
+      "class": "fab fa-drupal"
+    },
+    "php": {
+      "title": "PHP",
+      "class": "fab fa-php"
+    },
+    "angular": {
+      "title": "Angular",
+      "class": "fab fa-angular"
+    },
+    "angularjs": {
+      "title": "AngularJS",
+      "class": "fab fa-angular"
+    },
+    "javascript": {
+      "title": "JavaScript",
+      "class": "fab fa-js-square"
+    },
+    "html5": {
+      "title": "HTML5",
+      "class": "fab fa-html5"
+    },
+    "css3": {
+      "title": "CCS3",
+      "class": "fab fa-css3-alt"
+    },
+    "node": {
+      "title": "Node",
+      "class": "fab fa-node"
+    },
+    "npm": {
+      "title": "NPM",
+      "class": "fab fa-npm"
+    },
+    "sass": {
+      "title": "SASS",
+      "class": "fab fa-sass"
+    },
+    "git": {
+      "title": "Git",
+      "class": "fab fa-git-alt"
+    },
+    "grunt": {
+      "title": "Grunt",
+      "class": "fab fa-grunt"
+    },
+    "jira": {
+      "title": "Jira",
+      "class": "fab fa-jira"
+    },
+    "spring": {
+      "title": "Spring",
+      "class": "fab custom-spring"
+    },
+    "jquery": {
+      "title": "jQuery",
+      "class": "fab custom-jquery"
+    },
+    "selenium": {
+      "title": "Selenium Webdriver",
+      "class": "fab custom-selenium"
+    },
+    "solr": {
+      "title": "Apache Solr",
+      "class": "fab custom-solr"
+    },
+    "dojo": {
+      "title": "Dojo Toolkit",
+      "class": "fab custom-dojo"
+    },
+    "mysql": {
+      "title": "MySQL",
+      "class": "fab custom-mysql"
+    }
+  }
+}
