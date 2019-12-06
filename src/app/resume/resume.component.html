@@ -4,7 +4,8 @@
             <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="profile">
                 <div class="w-100">
                     <p class="lead">Oops! the web browser doesn't have a PDF support.</p>
-                    <p class="lead">Please <a [href]="getResumeURL()" target="_blank">click here to download the resume.</a>
+                    <p class="lead">Please <a [href]="getResumeURL()" gtagEvent trackOn="click" action="resume" category="download"
+                            target="_blank">click here to download the resume.</a>
                     </p>
                 </div>
             </section>

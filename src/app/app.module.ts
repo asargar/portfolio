@@ -3,6 +3,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { GtagModule, Gtag } from 'angular-gtag';
 
 import { AppComponent } from './app.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
@@ -32,6 +33,7 @@ import { ResumeComponent } from './resume/resume.component';
     BrowserModule,
     BrowserAnimationsModule,
     NgbModule,
+    GtagModule.forRoot({ trackingId: 'UA-154148293-1', trackPageviews: true }),
     RouterModule.forRoot([
       {
         path: '',
@@ -79,4 +81,8 @@ import { ResumeComponent } from './resume/resume.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule { 
+  constructor(gtag: Gtag) {
+    
+  }
+}

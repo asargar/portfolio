@@ -12,7 +12,7 @@
         </div>
         <p class="lead mb-5">{{data.aboutMe}}</p>
         <div class="social-icons">
-          <a *ngFor="let socialProfile of data.socialProfiles" href="{{socialProfile.link}}" target="_blank"
+          <a *ngFor="let socialProfile of data.socialProfiles" gtagEvent trackOn="click" action="{{socialProfile.name}}" category="external-links" href="{{socialProfile.link}}" target="_blank"
             [ngbTooltip]="socialProfile.name">
             <i class="{{socialProfile.class | lowercase}}"></i>
           </a>
