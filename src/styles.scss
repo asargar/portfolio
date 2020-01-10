@@ -1,3 +1,4 @@
+@import '@angular/material/prebuilt-themes/deeppurple-amber.css';
 @import "variables.scss";
 
 // Color theme
@@ -7,6 +8,17 @@
 
 .text-primary {
   color: $main-color !important;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: $main-color !important;
+  border-color: $main-color !important;
+  box-shadow: none !important;
+}
+
+.mat-input-element {
+  caret-color: $main-color !important;
 }
 
 a {
@@ -19,7 +31,8 @@ a {
   }
 }
 
-html, body {
+html,
+body {
   min-height: 100vh;
   height: auto;
   margin: 0;
@@ -93,4 +106,14 @@ section {
       }
     }
   }
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
 }

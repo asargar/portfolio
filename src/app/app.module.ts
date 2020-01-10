@@ -4,6 +4,9 @@ import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { GtagModule, Gtag } from 'angular-gtag';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { MatFormFieldModule, MatInputModule } from '@angular/material';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
@@ -15,6 +18,7 @@ import { AboutComponent } from './about/about.component';
 import { TechListComponent } from './tech-list/tech-list.component';
 import { TechConfigPipe } from './tech-config.pipe';
 import { ResumeComponent } from './resume/resume.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -27,12 +31,18 @@ import { ResumeComponent } from './resume/resume.component';
     ProjectsComponent,
     TechListComponent,
     TechConfigPipe,
-    ResumeComponent
+    ResumeComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     NgbModule,
+    FormsModule,
+    ReactiveFormsModule,
+    MatFormFieldModule,
+    MatInputModule,
+    HttpClientModule,
     GtagModule.forRoot({ trackingId: 'UA-154148293-1', trackPageviews: true }),
     RouterModule.forRoot([
       {
@@ -69,6 +79,11 @@ import { ResumeComponent } from './resume/resume.component';
         path: 'resume',
         component: ResumeComponent,
         data: { animation: 'ResumesPage' }
+      },
+      {
+        path: 'contact',
+        component: ContactComponent,
+        data: { animation: 'ContactPage' }
       },
       {
         path: '**',

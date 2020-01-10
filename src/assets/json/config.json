@@ -9,7 +9,8 @@
       "Education",
       "Skills",
       "Projects",
-      "Resume"
+      "Resume",
+      "Contact"
     ]
   },
   "about": {
@@ -254,6 +255,10 @@
         ]
       }
     ]
+  },
+  "contact": {
+    "action" : "https://formspree.io/",
+    "formId" : "xjvklygj"
   },
   "technologyMap": {
     "-description-": "Technology map to mention fontawesome classname or direct icon link for unsopported icons",
