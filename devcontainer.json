@@ -13,6 +13,6 @@
         }
       }
     },
-    "postCreateCommand": "nvm install 10.24.1 && nvm use 10.24.1"
+    "postCreateCommand": "nvm install 10.24.1 && nvm use 10.24.1 && npm install -g @angular/cli@~8.3.20 && npm install"
   }
   

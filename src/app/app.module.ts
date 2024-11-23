@@ -19,6 +19,7 @@ import { TechListComponent } from './tech-list/tech-list.component';
 import { TechConfigPipe } from './tech-config.pipe';
 import { ResumeComponent } from './resume/resume.component';
 import { ContactComponent } from './contact/contact.component';
+import { ConfigGuard } from './config.guard';
 
 @NgModule({
   declarations: [
@@ -53,37 +54,44 @@ import { ContactComponent } from './contact/contact.component';
       {
         path: 'about',
         component: AboutComponent,
-        data: { animation: 'HomePage' }
+        data: { animation: 'HomePage' },
+        canActivate: [ConfigGuard]
       },
       {
         path: 'experience',
         component: ExperienceComponent,
-        data: { animation: 'ExperiencePage' }
+        data: { animation: 'ExperiencePage' },
+        canActivate: [ConfigGuard]
       },
       {
         path: 'education',
         component: EducationComponent,
-        data: { animation: 'EducationePage' }
+        data: { animation: 'EducationePage' },
+        canActivate: [ConfigGuard]
       },
       {
         path: 'skills',
         component: SkillsComponent,
-        data: { animation: 'SkillsPage' }
+        data: { animation: 'SkillsPage' },
+        canActivate: [ConfigGuard]
       },
       {
         path: 'projects',
         component: ProjectsComponent,
-        data: { animation: 'ProjectsPage' }
+        data: { animation: 'ProjectsPage' },
+        canActivate: [ConfigGuard]
       },
       {
         path: 'resume',
         component: ResumeComponent,
-        data: { animation: 'ResumesPage' }
+        data: { animation: 'ResumesPage' },
+        canActivate: [ConfigGuard]
       },
       {
         path: 'contact',
         component: ContactComponent,
-        data: { animation: 'ContactPage' }
+        data: { animation: 'ContactPage' },
+        canActivate: [ConfigGuard]
       },
       {
         path: '**',
@@ -96,8 +104,8 @@ import { ContactComponent } from './contact/contact.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { 
+export class AppModule {
   constructor(gtag: Gtag) {
-    
+
   }
 }
