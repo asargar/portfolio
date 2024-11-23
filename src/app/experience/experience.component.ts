@@ -1,18 +1,13 @@
-import { Component, OnInit } from '@angular/core';
-import { experience } from '../../assets/json/config.json';
+import { Component } from '@angular/core';
+import { ConfigService } from '../config.service';
 
 @Component({
   selector: 'app-experience',
   templateUrl: './experience.component.html',
   styleUrls: ['./experience.component.scss']
 })
-export class ExperienceComponent implements OnInit {
+export class ExperienceComponent  {
 
-  data: any;
-  constructor() { }
-
-  ngOnInit() {
-    this.data = experience;
-  }
+  data = ConfigService.getConfig().experience;
 
 }

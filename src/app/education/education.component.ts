@@ -1,18 +1,13 @@
-import { Component, OnInit } from '@angular/core';
-import { education } from '../../assets/json/config.json';
+import { Component } from '@angular/core';
+import { ConfigService } from '../config.service';
 
 @Component({
   selector: 'app-education',
   templateUrl: './education.component.html',
   styleUrls: ['./education.component.scss']
 })
-export class EducationComponent implements OnInit {
+export class EducationComponent {
 
-  data: any;
-  constructor() { }
-
-  ngOnInit() {
-    this.data = education;
-  }
+  data = ConfigService.getConfig().educationDetails;
 
 }

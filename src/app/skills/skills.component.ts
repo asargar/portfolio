@@ -1,18 +1,13 @@
-import { Component, OnInit } from '@angular/core';
-import { skills } from '../../assets/json/config.json';
+import { Component } from '@angular/core';
+import { ConfigService } from '../config.service';
 
 @Component({
   selector: 'app-skills',
   templateUrl: './skills.component.html',
   styleUrls: ['./skills.component.scss']
 })
-export class SkillsComponent implements OnInit {
+export class SkillsComponent {
 
-  data: any;
-  constructor() { }
-
-  ngOnInit() {
-    this.data = skills;
-  }
+  data = ConfigService.getConfig().skills;
 
 }

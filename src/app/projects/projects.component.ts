@@ -1,18 +1,13 @@
-import { Component, OnInit } from '@angular/core';
-import { projects } from '../../assets/json/config.json';
+import { Component } from '@angular/core';
+import { ConfigService } from '../config.service';
 
 @Component({
   selector: 'app-projects',
   templateUrl: './projects.component.html',
   styleUrls: ['./projects.component.scss']
 })
-export class ProjectsComponent implements OnInit {
+export class ProjectsComponent {
 
-  data: any;
-  constructor() { }
-
-  ngOnInit() {
-    this.data = projects;
-  }
+  data = ConfigService.getConfig().projects;
 
 }

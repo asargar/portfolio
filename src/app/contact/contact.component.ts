@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
-import { contact } from '../../assets/json/config.json';
 import { HttpClient } from '@angular/common/http';
 import { throwError } from 'rxjs';
+import { ConfigService } from '../config.service';
 
 @Component({
   selector: 'app-contact',
@@ -11,7 +11,7 @@ import { throwError } from 'rxjs';
 })
 export class ContactComponent implements OnInit {
 
-  data = contact;
+  data = ConfigService.getConfig().contact;
   contactForm: FormGroup;
   disabledSubmitButton: boolean = true;
   optionsSelect: Array<any>;

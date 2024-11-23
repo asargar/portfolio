@@ -28,103 +28,89 @@
         "name": "GitHub",
         "link": "https://github.com/asargar/",
         "class": "fab fa-github"
-      },
-      {
-        "name": "Twitter",
-        "link": "https://twitter.com/amitsargar/",
-        "class": "fab fa-twitter"
-      },
-      {
-        "name": "Instagram",
-        "link": "https://instagram.com/amit.sargar/",
-        "class": "fab fa-instagram"
       }
     ]
   },
-  "experience": {
-    "list": [
-      {
-        "title": "Assistant Vice President",
-        "company": "Deutsche Bank, Pune",
-        "start": "March, 2020",
-        "end": "Present",
-        "details": [
-          "As a Full Stack Developer, I handle development from Angular to Spring Boot and manage deployment as well.",
-          "Notably, I developed a generic, configuration-based dashboard adaptable for similar views with minimal effort.",
-          "Additionally, I have been involved in migration projects from OCP3 to OCP4 and disaster recovery strategy of applications"
-        ]
-      },
-      {
-        "title": "Consultant",
-        "company": "Deloitte Consulting, Mumbai",
-        "start": "Aug, 2018",
-        "end": "Mar, 2020",
-        "details": [
-          "Got promoted to Consultant on fast track, as recognition to work towards client and extracurricular activities like <strong>represented Deloitte in Code Gladiator Finals</strong>.",
-          "Got recognition and <strong>Applause Award</strong> for project contribution.",
-          "Leading the development of various modules of paperless insurance product owned by US based Business Insurance Company.",
-          "Full stack development to enhance existing system to introduce new features including upgrading payment gateway SDK and making system PCI compliant."
-        ]
-      },
-      {
-        "title": "Business Technical Analyst",
-        "company": "Deloitte Consulting, Mumbai",
-        "start": "Dec, 2016",
-        "end": "Aug, 2018",
-        "details": [
-          "Represented Deloitte in largest coding contest Code Gladiator Finals in 2017 and 2018. Got the highest recognition award in Deloitte for the same. The 2017 coding event recognized by Guinness record for largest coding contest.",
-          "Got recognition from Client as well as Deloitte for contribution towards client service.",
-          "Development of various modules of the platform/ product for US based public sector client.",
-          "Full stack development to enhance existing system to introduce new features."
-        ]
-      },
-      {
-        "title": "Associate Software Engineer",
-        "company": "Pragmatix Services Pvt. Ltd., Mumbai",
-        "start": "Jul, 2015",
-        "end": "Dec, 2016",
-        "details": [
-          "Development and integration of various modules like Non-Performing Assets (NPA), Early Warning System (EWS) solutions for Banking client.",
-          "Responsible to design, develop and optimize Rule Engine product, which was integral part of NPA and EWS solutions.",
-          "Migrating various modules from previous version of the product to new maven based OSGi system.",
-          "Involved in the development of various POCs for client demos.",
-          "Technologies & Frameworks: Java, Spring MVC, Hibernate, JBPM, SQL, HTML, CSS, JavaScript, Dojo, OSGi, AngularJS"
-        ]
-      },
-      {
-        "title": "Trainee Software Engineer",
-        "company": "Pragmatix Services Pvt. Ltd., Mumbai",
-        "start": "Jan, 2015",
-        "end": "Jun, 2015",
-        "details": [
-          "Design and develop frontend and backend of Smart Search module.",
-          "Design and develop Download Automation solution which allows user to download thousands of files in a click.",
-          "Enhancement of the reporting framework module.",
-          "Development of autocomplete widget in Dojo.",
-          "Received appreciation for the Download Automation project.",
-          "Technologies & Frameworks: Java, Spring MVC, Hibernate, SQL, HTML, CSS, JavaScript, Dojo, jQuery, AngularJs"
-        ]
-      }
-    ]
-  },
-  "education": {
-    "list": [
-      {
-        "college": "VJTI, Mumbai",
-        "website": "https://en.wikipedia.org/wiki/Veermata_Jijabai_Technological_Institute",
-        "course": "Master of Computer Applications",
-        "start": "Jul, 2012",
-        "end": "Jun, 2015"
-      },
-      {
-        "college": "KWC, Sangli",
-        "website": "http://www.kwcsangli.in/",
-        "course": "Bachelor of Computer Science",
-        "start": "Jul, 2009",
-        "end": "Mar, 2012"
-      }
-    ]
-  },
+  "experience": [
+    {
+      "title": "Assistant Vice President",
+      "company": "Deutsche Bank, Pune",
+      "start": "March, 2020",
+      "end": "Present",
+      "details": [
+        "As a Full Stack Developer, I handle development from Angular to Spring Boot and manage deployment as well.",
+        "Notably, I developed a generic, configuration-based dashboard adaptable for similar views with minimal effort.",
+        "Additionally, I have been involved in migration projects from OCP3 to OCP4 and disaster recovery strategy of applications"
+      ]
+    },
+    {
+      "title": "Consultant",
+      "company": "Deloitte Consulting, Mumbai",
+      "start": "Aug, 2018",
+      "end": "Mar, 2020",
+      "details": [
+        "Got promoted to Consultant on fast track, as recognition to work towards client and extracurricular activities like <strong>represented Deloitte in Code Gladiator Finals</strong>.",
+        "Got recognition and <strong>Applause Award</strong> for project contribution.",
+        "Leading the development of various modules of paperless insurance product owned by US based Business Insurance Company.",
+        "Full stack development to enhance existing system to introduce new features including upgrading payment gateway SDK and making system PCI compliant."
+      ]
+    },
+    {
+      "title": "Business Technical Analyst",
+      "company": "Deloitte Consulting, Mumbai",
+      "start": "Dec, 2016",
+      "end": "Aug, 2018",
+      "details": [
+        "Represented Deloitte in largest coding contest Code Gladiator Finals in 2017 and 2018. Got the highest recognition award in Deloitte for the same. The 2017 coding event recognized by Guinness record for largest coding contest.",
+        "Got recognition from Client as well as Deloitte for contribution towards client service.",
+        "Development of various modules of the platform/ product for US based public sector client.",
+        "Full stack development to enhance existing system to introduce new features."
+      ]
+    },
+    {
+      "title": "Associate Software Engineer",
+      "company": "Pragmatix Services Pvt. Ltd., Mumbai",
+      "start": "Jul, 2015",
+      "end": "Dec, 2016",
+      "details": [
+        "Development and integration of various modules like Non-Performing Assets (NPA), Early Warning System (EWS) solutions for Banking client.",
+        "Responsible to design, develop and optimize Rule Engine product, which was integral part of NPA and EWS solutions.",
+        "Migrating various modules from previous version of the product to new maven based OSGi system.",
+        "Involved in the development of various POCs for client demos.",
+        "Technologies & Frameworks: Java, Spring MVC, Hibernate, JBPM, SQL, HTML, CSS, JavaScript, Dojo, OSGi, AngularJS"
+      ]
+    },
+    {
+      "title": "Trainee Software Engineer",
+      "company": "Pragmatix Services Pvt. Ltd., Mumbai",
+      "start": "Jan, 2015",
+      "end": "Jun, 2015",
+      "details": [
+        "Design and develop frontend and backend of Smart Search module.",
+        "Design and develop Download Automation solution which allows user to download thousands of files in a click.",
+        "Enhancement of the reporting framework module.",
+        "Development of autocomplete widget in Dojo.",
+        "Received appreciation for the Download Automation project.",
+        "Technologies & Frameworks: Java, Spring MVC, Hibernate, SQL, HTML, CSS, JavaScript, Dojo, jQuery, AngularJs"
+      ]
+    }
+  ],
+  "educationDetails": [
+    {
+      "college": "VJTI, Mumbai",
+      "website": "https://en.wikipedia.org/wiki/Veermata_Jijabai_Technological_Institute",
+      "course": "Master of Computer Applications",
+      "start": "Jul, 2012",
+      "end": "Jun, 2015"
+    },
+    {
+      "college": "KWC, Sangli",
+      "website": "http://www.kwcsangli.in/",
+      "course": "Bachelor of Computer Science",
+      "start": "Jul, 2009",
+      "end": "Mar, 2012"
+    }
+  ],
   "skills": {
     "list": [
       {
@@ -164,7 +150,8 @@
           "jenkins",
           "openshift",
           "teamcity",
-          "helm"
+          "helm",
+          "git"
         ]
       }
     ]
@@ -356,6 +343,10 @@
       "title": "Jira",
       "class": "fab fa-jira"
     },
+    "jenkins": {
+      "title": "Jenkins",
+      "class": "fab fa-jenkins"
+    },
     "spring": {
       "title": "Spring",
       "class": "fab custom-spring"
@@ -387,10 +378,6 @@
     "openshift": {
       "title": "OpenShift",
       "class": "fab custom-openshift"
-    },
-    "jenkins": {
-      "title": "Jenkins",
-      "class": "fab custom-jenkins"
     },
     "teamcity": {
       "title": "Teamcity",

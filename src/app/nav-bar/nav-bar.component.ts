@@ -1,20 +1,16 @@
-import { Component, OnInit, ElementRef, HostListener } from '@angular/core';
-import { navBarConfig } from '../../assets/json/config.json';
+import { Component, ElementRef, HostListener } from '@angular/core';
+import { ConfigService } from '../config.service';
 
 @Component({
   selector: 'app-nav-bar',
   templateUrl: './nav-bar.component.html',
   styleUrls: ['./nav-bar.component.scss']
 })
-export class NavBarComponent implements OnInit {
+export class NavBarComponent {
 
-  data: any;
+  data = ConfigService.getConfig().navBarConfig;
   isMenuCollapsed: boolean = true;
   constructor(private elementRef: ElementRef) { }
-
-  ngOnInit() {
-    this.data = navBarConfig;
-  }
 
   handleCollapse(event, isMenuCollapsed: boolean) {
     this.isMenuCollapsed = isMenuCollapsed;

@@ -13,7 +13,7 @@ export class ConfigService {
   constructor(private http: HttpClient) { }
 
   loadConfig(): Observable<any> {
-    return this.http.get('/assets/config.json').pipe(
+    return this.http.get('/assets/json/config.json').pipe(
       tap(config => ConfigService.config = config)
     );
   }

@@ -16,20 +16,20 @@ export interface Config {
             class: string
         }[]
     },
-    experiences: {
+    experience: Array<{
         title: string,
         company: string,
         start: string,
         end: string,
         details: string[]
-    },
-    educations: {
+    }>,
+    educationDetails: Array<{
         college: string,
         website: string,
         course: string,
         start: string,
         end: string
-    }[],
+    }>,
     skills: {
         title: string,
         techList: string[]

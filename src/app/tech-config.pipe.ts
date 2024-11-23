@@ -1,21 +1,15 @@
 import { Pipe, PipeTransform } from '@angular/core';
-import { technologyMap } from '../assets/json/config.json';
+import { ConfigService } from './config.service';
 
 @Pipe({
   name: 'techConfig'
 })
 export class TechConfigPipe implements PipeTransform {
 
-  constructor() {
+  private technologyMap = ConfigService.getConfig().technologyMap
 
-  }
-
-  transform(techList: any, ...args: any[]): any {
-    let transformedList = [];
-    for (let tech of techList) {
-      transformedList.push(technologyMap[tech] ? technologyMap[tech] : { title: tech, class: tech });
-    }
-    return transformedList;
+  transform(techList: string[]): { title: string, class: string }[] {
+    return techList.map(tech => (this.technologyMap[tech] ? this.technologyMap[tech] : { title: tech, class: tech }));
   }
 
 }
