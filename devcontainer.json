@@ -1,0 +1,18 @@
+{
+    "name": "Node.js",
+    "build": {
+      "dockerfile": "Dockerfile"
+    },
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "ms-vscode-remote.remote-containers"
+        ],
+        "settings": {
+          "terminal.integrated.shell.linux": "/bin/bash"
+        }
+      }
+    },
+    "postCreateCommand": "nvm install 10.24.1 && nvm use 10.24.1"
+  }
+  
