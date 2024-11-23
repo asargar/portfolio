@@ -17,7 +17,7 @@
     "firstName": "Amit",
     "lastName": "Sargar",
     "email": "amitsargar@gmail.com",
-    "aboutMe": "Hello, welcome to my professional profile. I have a Master of Computer Applications from VJTI, Mumbai and currently working as a Consultant at Deloitte Consulting Pvt. Ltd with 4+ years of experience as Full Stack Java Developer.",
+    "aboutMe": "Hello, welcome to my professional profile. I have a Master of Computer Applications from VJTI, Mumbai, and I am currently working as an Associate Vice President at Deutsche Bank India with approximately 10 years of experience as a Full Stack Java Developer.",
     "socialProfiles": [
       {
         "name": "LinkedIn",
@@ -44,10 +44,21 @@
   "experience": {
     "list": [
       {
+        "title": "Assistant Vice President",
+        "company": "Deutsche Bank, Pune",
+        "start": "March, 2020",
+        "end": "Present",
+        "details": [
+          "As a Full Stack Developer, I handle development from Angular to Spring Boot and manage deployment as well.",
+          "Notably, I developed a generic, configuration-based dashboard adaptable for similar views with minimal effort.",
+          "Additionally, I have been involved in migration projects from OCP3 to OCP4 and disaster recovery strategy of applications"
+        ]
+      },
+      {
         "title": "Consultant",
         "company": "Deloitte Consulting, Mumbai",
         "start": "Aug, 2018",
-        "end": "Present",
+        "end": "Mar, 2020",
         "details": [
           "Got promoted to Consultant on fast track, as recognition to work towards client and extracurricular activities like <strong>represented Deloitte in Code Gladiator Finals</strong>.",
           "Got recognition and <strong>Applause Award</strong> for project contribution.",
@@ -257,8 +268,8 @@
     ]
   },
   "contact": {
-    "action" : "https://formspree.io/",
-    "formId" : "xjvklygj"
+    "action": "https://formspree.io/",
+    "formId": "xjvklygj"
   },
   "technologyMap": {
     "-description-": "Technology map to mention fontawesome classname or direct icon link for unsopported icons",
