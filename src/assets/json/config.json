@@ -2,7 +2,7 @@
   "resumeFile": "/assets/pdf/Amit_Sargar_Resume.pdf",
   "navBarConfig": {
     "text": "Amit Sargar",
-    "profilePic": "../assets/img/profile.png",
+    "profilePic": "../assets/img/profile.jpg",
     "navItems": [
       "About",
       "Experience",
@@ -131,7 +131,7 @@
         "title": "Programming Skills",
         "techList": [
           "java",
-          "php"
+          "javascript"
         ]
       },
       {
@@ -145,24 +145,51 @@
         "title": "Web Technologies",
         "techList": [
           "angular",
-          "jquery",
           "javascript",
           "html5",
           "css3",
-          "drupal",
           "sass"
         ]
       },
       {
         "title": "Database",
         "techList": [
-          "mysql"
+          "mysql",
+          "oracle"
+        ]
+      },
+      {
+        "title": "CI/CD",
+        "techList": [
+          "jenkins",
+          "openshift",
+          "teamcity",
+          "helm"
         ]
       }
     ]
   },
   "projects": {
     "list": [
+      {
+        "title": "Portfolio Dashboard",
+        "description": "Portfolio dashboard for reviewing portfolios according to the bank's internal policies.",
+        "techList": [
+          "java",
+          "spring",
+          "angular",
+          "oracle",
+          "node",
+          "npm",
+          "sass",
+          "git",
+          "jira",
+          "jenkins",
+          "openshift",
+          "teamcity",
+          "helm"
+        ]
+      },
       {
         "title": "Business Insurance Website",
         "description": "US based Business Insurance website with multiple white label partners to purchase and maintain paperless online business insurance. It includes Web application for Agent and actual users to purchase new policy using online payment and maintaining the account to view existing policies.",
@@ -352,6 +379,26 @@
     "mysql": {
       "title": "MySQL",
       "class": "fab custom-mysql"
+    },
+    "oracle": {
+      "title": "Oracle",
+      "class": "fab custom-oracle"
+    },
+    "openshift": {
+      "title": "OpenShift",
+      "class": "fab custom-openshift"
+    },
+    "jenkins": {
+      "title": "Jenkins",
+      "class": "fab custom-jenkins"
+    },
+    "teamcity": {
+      "title": "Teamcity",
+      "class": "fab custom-teamcity"
+    },
+    "helm": {
+      "title": "Helm",
+      "class": "fab custom-helm"
     }
   }
 }
